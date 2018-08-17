@@ -24,10 +24,10 @@ print('%s' %(s))
 print('%s' %(course))
 print('%d' %(fees))
 
-#SOLUTION 6 INTRESTING THING
-name="Tony Stark"
-salary=1000000
-#we have to apply brackets around print statement
-print(('%s''%d')%(name,salary))
+#SOLUTION 6
+radius=int(input('Enter radius:'))
+pi=3.14
+area=pi*radius*radius
+print('The area of circle:',area)
 
 
